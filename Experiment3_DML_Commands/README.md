@@ -54,6 +54,7 @@ CREATE TABLE Student (
     marks NUMBER
 );
 ```
+
 ## Output:
 <img width="977" height="358" alt="image" src="https://github.com/user-attachments/assets/f1c3b018-b25d-43e7-aa49-ec4a26c44d80" />
 
@@ -64,6 +65,7 @@ VALUES (101, 'Ravi', 'CSE', 85);
 
 COMMIT;
 ```
+
 
 **Output:**
 
@@ -81,6 +83,7 @@ SELECT * FROM dual;
 COMMIT;
 ```
 
+
 **Output:**
 <img width="955" height="387" alt="image" src="https://github.com/user-attachments/assets/606b90fd-2e81-48ef-8f6e-67846fe5b7b7" />
 
@@ -89,6 +92,7 @@ COMMIT;
 ```
 SELECT * FROM Student;
 ```
+
 
 **Output:**
 
@@ -111,6 +115,7 @@ WHERE student_id = 101;
 
 COMMIT;
 ```
+
 
 **Output:**
 <img width="1043" height="381" alt="image" src="https://github.com/user-attachments/assets/dc6986a8-08b9-43db-8ee2-b74fa1086b71" />
@@ -146,6 +151,7 @@ SELECT * FROM Student
 WHERE marks > 85;
 ```
 
+
 **Output:**
 <img width="1027" height="318" alt="image" src="https://github.com/user-attachments/assets/c1efd02b-aa7f-4b1a-bd9a-5b15467af15d" />
 
@@ -165,6 +171,7 @@ COMMIT;
 SELECT * FROM CSE_Students;
 ```
 
+
 **Output:**
 <img width="927" height="376" alt="image" src="https://github.com/user-attachments/assets/070c9ee6-4692-44f5-82ab-973415024654" />
 
@@ -174,6 +181,8 @@ DELETE FROM CSE_Students;
 
 COMMIT;
 
+
+   
 **Output:**
 <img width="971" height="405" alt="image" src="https://github.com/user-attachments/assets/a2145cfb-c654-4a0d-8eb1-e3fdf913ab02" />
 
